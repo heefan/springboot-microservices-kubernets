@@ -1,8 +1,7 @@
-package com.heefan.api.composite.product;
-
-// TODO: here should use Annotation to do getter/setter
+package se.magnus.api.composite.product;
 
 public class RecommendationSummary {
+
     private final int recommendationId;
     private final String author;
     private final int rate;
@@ -25,4 +24,3 @@ public class RecommendationSummary {
         return rate;
     }
 }
-

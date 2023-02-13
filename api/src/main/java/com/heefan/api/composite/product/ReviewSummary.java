@@ -1,6 +1,7 @@
-package com.heefan.api.composite.product;
+package se.magnus.api.composite.product;
 
 public class ReviewSummary {
+
     private final int reviewId;
     private final String author;
     private final String subject;

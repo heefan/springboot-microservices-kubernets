@@ -1,4 +1,4 @@
-package com.heefan.api.composite.product;
+package se.magnus.api.composite.product;
 
 public class ServiceAddresses {
     private final String cmp;
@@ -13,8 +13,7 @@ public class ServiceAddresses {
         rec = null;
     }
 
-    public ServiceAddresses(String compositeAddress, String productAddress, String reviewAddress,
-                            String recommendationAddress) {
+    public ServiceAddresses(String compositeAddress, String productAddress, String reviewAddress, String recommendationAddress) {
         this.cmp = compositeAddress;
         this.pro = productAddress;
         this.rev = reviewAddress;
@@ -37,4 +36,3 @@ public class ServiceAddresses {
         return rec;
     }
 }
-
